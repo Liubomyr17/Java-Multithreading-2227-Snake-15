@@ -1,0 +1,18 @@
+
+Snake 15
+
+Now it remains to finish the snake.
+
+Here's what I suggest about snake movement:
+The snake consists of pieces. Come on every move, just add one piece on the side of the head,
+and the last one to delete. Then it turns out that the snake is crawling.
+
+Let's add two move methods, one with no parameters, and the other with two parameters of type int.
+
+In the move method without parameters, you must:
+
+a) stop moving if the snake is dead (isAlive == false)
+b) call the move (0, -1) method if the direction of movement is equal to SnakeDirection. UP.
+c) call the move (1, 0) method if the direction of movement is equal to SnakeDirection. RIGHT.
+d) call the move (0, 1) method if the direction of movement is equal to SnakeDirection. DOWN.
+e) call the move (-1, 0) method if the direction of movement is equal to SnakeDirection. Left.
